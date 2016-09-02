@@ -1,0 +1,64 @@
+/*标题*/
+img{
+	max-width: 100%;
+}
+.header{
+	border-bottom: 1px solid #eeeeee;
+	padding: 1em 1em;
+	margin-top: 2.3em;
+}
+.header b{
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.header b img{
+	width:20px;
+	height:30px;
+}
+.header h3{
+	text-align:center;
+	line-height: 30px;
+	font-weight: 500;
+	color:#333;
+}
+.header p.gary{
+	padding-left: 35px;
+	font-size: 8px;
+	-webkit-text-size-adjust:none;
+	color: #c0c0c0;
+	line-height: 2em;
+	margin:0 60px 0 30px;
+}
+.header .fr{
+	float: right;
+}
+.header div{
+	display: none;
+	margin-top: 1em;
+	text-align: right;
+}
+.header div a{
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	margin-left: 2em;
+}
+.start img,.good img,.info img{
+	width: 15px;
+	height:15px;
+}
+/*内容*/
+.content{
+	padding: 1em 1em;
+	line-height: 1.8em;
+}
+.content img{
+	margin: 1em 0;
+	max-width:100%;
+	height:auto;
+}
+.content p{
+	font-size: 14px;
+	line-height: 1.8em;
+}

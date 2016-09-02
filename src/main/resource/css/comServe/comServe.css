@@ -1,0 +1,85 @@
+/*重写*/
+.mui-segmented-control .mui-control-item.mui-active {
+    color: #222;
+    background-color: #fffdfe;
+    border-bottom: 2px solid #fe681b;
+}
+.mui-segmented-control .mui-control-item {
+    line-height: 40px;
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #222;
+    border-color: transparent;
+    border-left: 1px solid #f6f4f5;
+}
+.mui-segmented-control {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    table-layout: fixed;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #fffdfe;
+    -webkit-touch-callout: none;
+}
+
+body{
+	background: #dcdcdc;
+	font-size: 10px;
+}
+ul,li,dl,dd,dt{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+/*图标导航*/
+.icon_info{
+	width: 100%;
+	background: #fff;
+	margin: .5rem 0;
+}
+.icon_info img{
+	width:50px;
+	height:50px;
+	
+}
+.icon_info dl{
+	width: 100%;
+}
+.icon_info dt{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+
+}
+.icon_info dd{
+	width: 100%;
+	text-align: center;
+	padding-bottom:0.2rem ;
+}
+.icon_info a {
+	width: 24%;
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+}
+
+/*常用服务列表*/
+.com_serve{
+	background: #fff;
+}
+.com_serve .com_serve_title{
+	padding: 11px 15px;
+	font-size: 1.3em;
+	font-weight: 500;
+	color: #6f6f6f;
+}

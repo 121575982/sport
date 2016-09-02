@@ -1,0 +1,113 @@
+.navbar-header
+{
+    margin: 0;
+    padding: 10px 0 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-header img
+{
+    width:30px;
+}
+
+.navbar-footer
+{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.navbar-footer a
+{
+    display: block;
+}
+
+.navbar-footer .fleft
+{
+    height: 50px;
+    width: 65%;
+    float: left;
+    padding: 6px 20px;
+    background: #383838;
+    text-align: center;
+    color: white;
+    text-decoration:none ;
+    opacity: 0.85;
+}
+
+.navbar-footer .fbottom
+{
+    position: absolute;
+    height: 50px;
+    width: 65%;
+    text-align: center;
+    color: white;
+    top: 6px;
+}
+
+.navbar-footer .fbottom img
+{
+    width:38px;
+    height:38px;
+}
+
+.navbar-footer .fright
+{
+    height: 50px;
+    width: 35%;
+    float: left;
+    background: #db2718;
+    text-align: center;
+    color: white;
+    padding-top: 14px;
+    text-decoration:none ;
+}
+
+.content
+{
+    margin: 0;
+    padding: 80px 0;
+}
+
+.content .mianimg
+{
+    width: 100%;
+}
+
+.content .miantitle
+{
+    margin: 8px 8px 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #232325;
+}
+
+.content .miancon
+{
+    margin: 6px 10px 0 10px;
+    font-size: 16px;
+    color: #3e3c3f;
+}
+.content .mianyuanjia
+{
+    margin: 6px 20px 0 20px;
+    font-size: 14px;
+    color: #979799;
+    text-decoration:line-through ;
+}
+.content .mianxianjia
+{
+    margin: 6px 20px 0 20px;
+    font-size: 18px;
+    color: #979799;
+    font-weight: bold;
+}
+
+
+.clr
+{
+    clear: both;
+    width: 0;
+    height: 0;
+}

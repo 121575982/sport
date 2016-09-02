@@ -1,0 +1,81 @@
+body,html{
+	font-size: 10px;
+	font-family: "΢���ź�";
+	background: #fff;
+	height:100%;
+}
+p{
+	color:#000;
+	margin-bottom: 0;
+}
+.mui-content {
+    background-color: #fff;
+}
+
+.useInfo{
+	background: #fff;
+	padding-top: 1rem;
+	padding: 1rem 2rem;
+}
+.mui-input-row{
+	border-bottom:1px solid #999;
+	padding-top: 2rem;
+}
+.mui-input-row label {
+    font-family:"΢���ź�", 'Helvetica Neue',Helvetica,sans-serif;
+    padding: 17px 10px 5px;
+    font-size: 1.5rem;
+}
+input{
+	font-size: 1.5rem;
+}
+
+.submint_btn{
+	width: 100%;
+	padding: 1rem 1.5rem;
+	height:5rem;
+}
+.submint_btn p{
+	display: block;
+	background: #ff6632;
+	line-height: 3rem;
+	text-align: center;
+	color: #fff;
+}
+.mui-bar .mui-icon {
+    padding-top: 0; 
+    padding-bottom: 10px;
+}
+.mui-bar {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+}
+
+
+
+
+.out_time{
+	margin-top: 5rem;
+}
+.out_time table{
+	width:100%
+}
+.out_time td{
+	font-size: 1.5rem;
+	color:#000;
+	vertical-align: middle;
+	padding: 0 .5rem;
+}
+.out_time td:first-child{
+	border-bottom: 1px solid #999;
+	width:75%;
+}
+.out_time .mui-btn{
+    font-size: 14px;
+    padding: 6px 12px;
+    color: #000;
+    border: 0px solid #ccc;
+    background-color: #f2f2f2;
+    margin-left: .5rem;
+}

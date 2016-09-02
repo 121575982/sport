@@ -1,0 +1,369 @@
+
+.user-ui-btn-scan{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 1em;
+}
+.user-ui-btn-scan a,.user-ui-btn-information a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.user-ui-btn-information{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    right: 1em;
+}
+.user-ui-btn .ui-ican {
+    display: inline-block;
+    width:25px;
+    height:25px;
+
+}
+/** 定义自己的图标 **/
+.ui-icon-scan{
+    background:url('../imgs/scan.png') no-repeat;
+}
+.ui-icon-information{
+    background:url('../imgs/information.png') no-repeat;
+}
+
+/*定义新主题*/
+.header{
+    background: #e4393c;
+    color:#fff;
+}
+.ui-header{
+     border-style: none;
+}
+.ui-page-theme-a{
+    text-shadow: 0 0 0;
+}
+.header h1{
+font-weight: 400;
+}
+
+.ui-header .ui-title{
+font-size: 18px;
+}
+
+/*底部导航设置*/
+.footer li{
+    width:25%;
+    height:100%;
+    float: left;
+}
+.footer li>a{
+    display: inline-block;
+    padding-top: 32px;
+    margin-top: .2em;
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+    color:#555;
+    text-decoration: none;
+}
+
+.footer li.sy>a{
+    background: url("../imgs/sy.png") no-repeat 50% 0;
+}
+
+.footer li.zhgw>a{
+    background: url("../imgs/zhgw.png") no-repeat 50% 0;
+}
+.footer li.sq>a{
+    background: url("../imgs/sq.png") no-repeat 50% 0;
+}
+.footer li.wd>a{
+    background: url("../imgs/wd.png") no-repeat 50% 0;
+}
+
+.footer li.sy>a:hover{
+    background: url("../imgs/sy1.png") no-repeat 50% 0;
+}
+.footer li.zhgw>a:hover{
+    background: url("../imgs/zhgw1.png") no-repeat 50% 0;
+}
+.footer li.sq>a:hover{
+    background: url("../imgs/sq1.png") no-repeat 50% 0;
+}
+.footer li.wd>a:hover{
+    background: url("../imgs/wd1.png") no-repeat 50% 0;
+}
+.footer li>a:hover{
+    color:#e4393c;
+}
+
+/*广告轮播*/
+img{
+    max-width:100%;
+}
+
+.ui-content .banner{
+    min-height: 11em;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ui-content .banner ul.img-adv{
+    position:relative;
+    z-index: 10;
+    width：100%;
+}
+.ui-content .banner ul.img-adv li{
+    float: left;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:100%;
+    z-index=5;
+}
+.ui-content .banner ul.img-adv li a{
+    display: inline-block;
+    width:100%;
+}
+
+.ui-content .banner div.points{
+    width: 100%;
+    height:20px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index: 20;
+    text-align: center;
+}
+@media screen and (min-width: 225px) and (max-width: 319px) {
+    .ui-content .banner div.points{
+        bottom:.2em;
+    }
+    .ui-content .banner{
+        min-height: 7em;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 359px) {
+    .ui-content .banner div.points{
+        bottom:.5em;
+    }
+    .ui-content .banner{
+        min-height: 10em;
+    }
+}
+@media screen and (min-width:360px){
+    .ui-content .banner div.points{
+        bottom:0.3em;
+    }
+    .ui-content .banner{
+        min-height: 11em;
+    }
+}
+.ui-content .banner div.points span {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border:4px solid #fff;
+    border-radius: 50%;
+    margin-left:10px;
+
+}
+.ui-content .banner div.points span.hover {
+    border:4px solid #5f5;
+}
+
+/*尾号限行*/
+.limit{
+    width:100%;
+    padding:1em;
+    background: #ffffff;
+    margin-bottom: 7px;
+    position:relative;
+}
+.limit span.info{
+    padding: 0.2em 1em;
+    background: #eed720;
+    text-align: center;
+    color:#ffffff;
+    font-size: 13px;
+    border-radius: 2em;
+    margin-right: 0.5em;
+}
+.limit h5{
+    font-weight: 300;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-right: 1em;
+}
+.limit span.date{
+    font-size: 10px;
+}
+.limit>a{
+    display:block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+/*服务列表*/
+.recommend,.ser-list{
+    background: #fff;
+}
+.ser-list>div.ui-grid-c>div{
+    position: relative;padding: 5px 0;
+}
+.ser-list>div.ui-grid-c>div a{
+    display: block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.ser-list>div.ui-grid-c>div dt{
+    text-align: center;
+}
+.ser-list>div.ui-grid-c>div dd{
+    text-align: center;
+    font-size: 12px;
+    color:#333;
+    font-weight: 400;
+}
+
+/*秒杀，福利专区*/
+.mini{
+    margin:5px 0;
+}
+/*产品广告*/
+.banner.product-banner{
+    min-height: 9em;
+}
+
+
+/*精品推荐*/
+.recommend{
+    margin:10px 0;
+    padding: 5px;
+    padding-top: 1em;
+}
+.title{
+    font-size: 16px;
+    color:#e4393c;
+}
+.line{
+    width:75%;
+    height:0;
+    margin-top: .5em; ;
+    float:right;
+    display: inline-block;
+    border:1px solid #ddd;
+}
+
+.recommend a{
+    margin: 5px;
+    padding: 0 5px;
+    display: block;
+    border: 1px solid #eee;
+    font-size: 10px;
+    font-weight: 300;
+    color:#555;
+    text-decoration: none;
+}
+.recommend dd{
+    padding: 0;
+    margin: 0;
+}
+.recommend dd p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.red{
+    color:#e4393c;
+}
+.gray{
+    color:#aaa;
+}
+.fr{
+    float: right;
+}
+
+@media screen and (min-width: 225px) and (max-width: 319px) {
+    .banner.product-banner{
+        min-height: 5.5em;
+    }
+    .ui-content .banner div.points.product-points {
+        bottom:0;
+    }
+    .line{
+        width:67%;
+    }
+    /*尾号限行*/
+    .limit{
+        padding:.5em;
+    }
+    .limit span.info{
+        padding: 0.1em .3em;
+        font-size: 12px;
+        border-radius: .6em;
+        margin-right: 0.3em;
+    }
+    .limit h5{
+        font-weight: 300;
+        font-size: 0.8em;
+        display: inline-block;
+        margin-right: .4em;
+    }
+    .limit span.date{
+        font-size: 10px;
+    }
+}
+
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+    color: #333;
+}
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    .banner.product-banner{
+        min-height: 7em;
+    }
+    .ui-content .banner div.points.product-points {
+        bottom:0;
+    }
+    /*尾号限行*/
+    .limit{
+        padding:.5em;
+    }
+    .limit span.info{
+        padding: 0.2em 1em;
+        font-size: 8px;
+        border-radius: 2em;
+        margin-right: 0.5em;
+    }
+    .limit h5{
+        font-weight: 300;
+        font-size: 0.8em;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    .limit span.date{
+        font-size: 6px;
+    }
+}
+@media screen and (min-width:361px){
+    .banner.product-banner{
+        min-height: 8em;
+    }
+    .recommend a{
+        font-size: 9px;
+    }
+    .limit{
+        padding:1em;
+        padding-left: 1.5em;
+    }
+}

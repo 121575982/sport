@@ -1,0 +1,244 @@
+/*閲嶅啓*/
+img{
+	max-width: 100%;
+}
+.mui-slider-item img{
+	width: 100%;
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #f3f3f3;
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+}
+.container:before{
+    content: " ";
+    display: table;
+}
+.container:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.mui-content{
+	background: #f3f3f3;
+}
+p{
+	color: #404241;
+}
+/*鏀瑰彉杞挱灏忓渾鐐归鑹�/
+.mui-slider-indicator .mui-indicator{
+	background: #fff;
+}
+.mui-slider-indicator .mui-active.mui-indicator{
+	background: #00CC66;
+}
+
+/*鍟嗗搧淇℃伅*/
+.title{
+	font-size: 1.2rem;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+.red{
+	color: #d81c1d;
+}
+
+.product_content{
+	box-sizing: border-box;
+	padding: 1rem;
+	background: #fff;
+	margin-bottom: .4rem;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+.product_content>p{
+	margin: 0.5rem 0;
+	font-size: .8rem;
+}
+.price{
+	font-size: 1.2rem;
+	font-weight: bold;
+
+}
+.deletePri{
+	color: #b5b5b5;
+	font-weight: 300;
+	font-size: .8rem;
+}
+.timer{
+	padding:.2rem 0 0.2rem 1.7rem ;
+	font-size: .8rem;
+	background: url(../../images/timer.png) no-repeat;
+	background-size: 1.2rem 1.2rem;
+
+}
+.smallInfo{
+	color: #797876;
+	font-size: .6rem;
+}
+.product_content table{
+	width: 100%;
+}
+.product_content table td{
+	box-sizing: border-box;
+}
+
+.product_content table td:first-child{
+	width: 70%;
+	
+}
+/*瀹㈡埛澶村儚*/
+.customer{
+	padding: 1rem;
+	background: #fff;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: .4rem;
+}
+.customer dl{
+	width:3rem ;
+	float: left;
+	margin-right: 1rem;
+}
+.customer dt{
+	width:3rem ;
+	height: 3rem;
+}
+
+.customer dt img,.cus_intro_user img{
+	width:3rem ;
+	height: 3rem;
+	border-radius: 50%;
+}
+.customer dd{
+	text-align: center;
+	margin: auto;
+	
+	height: 2rem;
+	line-height: 1rem;
+	overflow: hidden;
+}
+
+/*鍟嗗搧璇︽儏*/
+.product_info{
+	background: #fff;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: .4rem;
+	padding: 1rem;
+	font-size: 1rem;
+}
+.product_info img{
+	height:auto;
+}
+
+/*鐢ㄦ埛璇勪环*/
+.gary{
+	color: #9d9d9d;
+}
+.cus_intro{
+	background: #fff;
+	border-top: 1px solid #ddd;
+	box-sizing: border-box;
+	
+}
+.cus_intro .cus_intro_top{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1rem;
+	padding: .5rem 1rem;
+}
+.cus_intro .cus_intro_top .cus_intro_title,.intro_content,.user_name{
+	font-weight: 500;
+	color:#444;
+}
+.cus_intro_title+div{
+	font-size: .9rem;
+}
+.cus_intro li{
+	width: 100%;
+	box-sizing: border-box;
+	padding: .5rem 1rem 1rem;
+	border-top: 1px solid #ddd;
+}
+.cus_intro table{
+	width: 100%;
+}
+.cus_intro td{
+	vertical-align: top;
+}
+.cus_intro td.start{
+	text-align: right;
+}
+.cus_intro_user img{
+	margin: .5rem;
+	margin-top: 0;
+}
+.start img{
+	width:6rem;
+}
+.user_name{
+	font-size: .9rem;
+}
+.user_name+p{
+	font-size: .7rem;
+}
+
+.mui-bar-nav
+{
+	opacity: .8;
+}
+
+a.headernav
+{
+	background: url(../../images/sharelogo.png) no-repeat 20px 8px;
+	background-size:30px 30px;
+	padding: 15px 0 0 60px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	color: black;
+	font-size: 18px;
+	position: fixed;
+	z-index: 999;
+}
+
+.mui-bar-tab
+{
+	padding: 0;
+	height: 40px;
+}
+.mui-bar .mui-btn {
+    top: 0px;
+}
+
+.mui-bar.mui-bar-tab span.mui-btn,.mui-bar.mui-bar-tab a.mui-btn{
+	display: inline-block;
+	height: 40px;
+	line-height: 30px;
+	border-bottom-left-radius:0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	border:0;
+	color: #fff;
+}
+.mui-bar.mui-bar-tab span:first-child{
+	background: #ff9932;
+	width: 50%;
+}
+.mui-bar.mui-bar-tab span:last-child{
+	background: #ff6632;
+	width: 50%;
+}
+.mui-bar.mui-bar-tab span:only-child,.mui-bar.mui-bar-tab a:only-child{
+	background: #ff9932;
+	width: 100%;
+}

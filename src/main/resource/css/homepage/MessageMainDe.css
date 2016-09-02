@@ -1,0 +1,51 @@
+.ui-header-fixed{
+    padding: 5px;
+}
+
+.metitle
+{
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 15px 5px 15px;
+    text-align: center;
+}
+
+.medate
+{
+    font-size: 16px;
+    margin: 0px 15px 5px 15px;
+    text-align: center;
+    color: #7d7d7d;
+}
+
+.mecon
+{
+    color: #333333;
+    font-size: 16px;
+    margin: 20px 15px 30px 15px;
+    line-height: 1.5em;
+}
+
+.mecon img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.meimg
+{
+    text-align: center;
+}
+.meimg a img
+{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.clr
+{
+    clear:both;
+    width: 0;
+    height: 0;
+}

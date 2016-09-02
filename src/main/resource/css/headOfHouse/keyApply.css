@@ -1,0 +1,136 @@
+body,html{
+	font-size: 10px;
+	font-family: "微软雅黑";
+	background: #fff;
+	height:100%;
+}
+p{
+	color:#000;
+	margin-bottom: 0;
+}
+.mui-content {
+    background-color: #fff;
+}
+
+.selectX{
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.selectX a{
+	display: block;
+	padding:3rem 1.5rem 1rem;
+}
+.selectX p{
+	font-size: 1.4rem;
+}
+.selectX p span.mui-icon{
+	float: right;
+}
+
+.useInfo{
+	background: #fff;
+	padding-top: 1rem;
+	padding: 1rem 1.5rem;
+}
+.mui-input-row{
+	border-bottom:1px solid #999;
+	padding-top: 1rem;
+}
+.mui-input-row label {
+    font-family:"微软雅黑", 'Helvetica Neue',Helvetica,sans-serif;
+    padding: 17px 10px 5px;
+    font-size: 1.3rem;
+}
+input{
+	font-size: 1.4rem;
+}
+.useInfo_intro{
+	padding: 6rem 1.5rem;
+}
+.useInfo_intro p{
+	font-size: 1.2rem;
+	color:#555;
+}
+.submint_btn{
+	width: 100%;
+	padding: 1rem 1.5rem;
+	height:5rem;
+}
+.submint_btn p{
+	display: block;
+	background: #ff6632;
+	line-height: 3rem;
+	text-align: center;
+	color: #fff;
+}
+.address{
+	
+	font-size: 1.4rem;
+	margin-left:1rem;
+}
+.mui-bar .mui-icon {
+    padding-top: 0; 
+    padding-bottom: 10px;
+}
+
+.mui-bar {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+}
+
+/*列表内容*/
+.mui-table-view-cell{
+	font-size: 1.4rem;
+}
+.mui-content{
+	background: #fff;
+}
+.mui-scroll{
+	background: #fff;
+}
+/*小区选择页 */
+.xiaoqu_search,.danyuan_search {
+	border-bottom: 0;
+}
+.mui-search .mui-placeholder{
+	font-size: 1.4rem;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    padding: 10px;
+}
+input[type=search] {
+    border-radius: 4px;
+    background-color: rgba(15,15,15,0.1);
+}
+.mui-search input[type=search] {
+    padding-left: 30px;
+}
+div.mui-input-row.mui-search.mui-active::before{
+	left:15px;
+	top:22px;
+	width:35px;
+	height:30px;
+	
+}
+.mui-input-row .mui-input-clear~.mui-icon-clear{
+    top: 8px;
+    right: 10px;
+   
+}
+.xiaoqu_search,.danyuan_search{
+	width:75%;
+	display:inline-block;
+}
+.search_btn{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:30px;
+}
+.mui-input-row.xiaoqu_search,.mui-input-row.danyuan_search{
+    overflow: visible;
+}
+.xiaoqu_search,.danyuan_search{
+	margin-top:30px;
+	padding:0 10px;
+}

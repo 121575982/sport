@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>门禁管理</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../css/headOfHouse/keyManage.css" />
+	</head>
+
+	<body>
+		<nav class="mui-bar mui-bar-tab footer">
+			<a href="" id="footer_headApplay">
+				<p>申请成为户主 <span class="mui-icon mui-icon-forward"></span> </p>
+			</a>
+		</nav>
+		<div class="mui-content">
+			<!--门禁钥匙申请-->
+			<header class="header">
+				<a href="#" id="header_keyApplay">
+					<p>申请电子钥匙 <span class="mui-icon mui-icon-forward"></span> </p>
+				</a>
+			</header>
+			<!--我的钥匙-->
+			<div class="ownkey">
+				<h4 class="title">
+		    		我的钥匙
+		    	</h4>
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<p>世嘉博苑 </p>
+							<p><span class="gary">2号楼 5单元 户主</span></p>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<p>世嘉博苑 </p>
+							<p><span class="gary">7号楼 6单元 户主</span></p>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<p>郡城 </p>
+							<p><span class="gary">1号楼 2单元 </span></p>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a>
+							<p>顶秀金石家园顶秀金石  <span class="gary">户主</span>   </p>
+							<p> <span class="gary">5号楼 3单元</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<script src="../../mui/js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			//跳转申请电子钥匙页面
+			document.getElementById("header_keyApplay").addEventListener("tap", function() {
+				location.href = "keyApply/keyApply.html";
+			});
+			//跳转申请成为户主页面
+			document.getElementById("footer_headApplay").addEventListener("tap", function() {
+				location.href = "keyApply/keyApply.html";
+			});
+			//户主进入  钥匙管理页面
+			mui(".mui-table-view").on("tap", ".mui-navigate-right", function(event) {
+				var target = event.srcElement || event.target;
+				mui.ajax('xxx.do', {
+					data: {
+						username: 'username',
+						xiaoqu:'xiaoqu',
+						danyuan:'danyuan'
+					},
+					dataType: 'json', //服务器返回json格式数据
+					type: 'get', //HTTP请求类型
+					timeout: 10000, //超时时间设置为10秒；
+					success: function(data) {
+						location.href="ownKey.html"
+					},
+					error: function(xhr, type, errorThrown) {
+						mui.alert("对不起，主人，页面跑丢了");
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>

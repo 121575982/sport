@@ -1,0 +1,87 @@
+body
+{
+	background: #ebebeb;
+}
+
+.mcell_li
+{
+	background: #ebebeb;
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+	display: block;
+}
+
+.mcell_li .headdate
+{
+	background: #c2c2c2;
+	color: white;
+	padding: 3px 6px;
+	border-radius:3px;
+	font-size: 12px;
+}
+
+.mcell_li .contact
+{
+	margin: 15px 0 10px 0;
+	background: white;
+	border: 1px solid #d4d4d4;
+	border-radius:5px;
+}
+
+.mcell_li .contact .noborder
+{
+	border-top:none !important;
+	border:none !important;
+}
+
+.mcell_li .contact .lic
+{
+	padding: 10px 10px 6px 10px;
+	border-top: 1px solid #f2f2f2;
+}
+
+.mcell_li .contact .lic img
+{
+	width: 100%;
+	height: auto;
+}
+
+.mcell_li .contact .lic .ltitle
+{
+	width: 77%;
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.5em;
+	padding: 5px 10px 5px 10px;
+}
+
+.mcell_li .contact .lic .ltitle span
+{
+	color: #c2c2c2;
+	font-size: 12px;
+	float: right;
+	padding: 0 10px 0 0;
+}
+
+.mcell_li .contact .lic .rimg
+{
+	width: 23%;
+	float: left;
+	
+}
+
+.mcell_li .contact .lic .limg img
+{
+	width: 100%;
+	height: auto;	
+}
+
+
+
+.clr
+{
+	clear: both;
+	width: 0px;
+	height: 0px;
+}

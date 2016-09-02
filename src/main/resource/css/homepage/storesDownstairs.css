@@ -1,0 +1,241 @@
+.navbar-header
+{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    background: #ffffff;
+    border-bottom:1px solid #e8eae7;
+    height: 33px;
+}
+
+.navbar-header a
+{
+    display: block;
+    position: fixed;
+    top: 0px;
+    left:5px;
+}
+.navbar-header a img
+{
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-header div
+{
+    margin-top: 5px;
+    color: #ff6b00;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.ui-content {
+    border-width: 0;
+    overflow: visible;
+    overflow-x: hidden;
+    padding: 0 0 0 0;
+}
+
+.ui-content .banner{
+    min-height: 11em;
+    /*     margin-bottom: 5px; */
+    overflow: hidden;
+    position: relative;
+    background:#fff;
+}
+
+.ui-content .banner ul.img-adv{
+    width:100%;
+    position:relative;
+    z-index: 10;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ui-content .banner ul.img-adv li{
+    position:absolute;
+    top: 0;
+    left:100%;
+    width:100%;
+    z-index: 5;
+}
+.ui-content .banner ul.img-adv li a{
+    display: inline-block;
+    width:100%;
+}
+.ui-content .banner ul.img-adv li a img{
+    max-width:100%;
+    min-width:100%;
+}
+
+.ui-content .banner div.points{
+    width: 100%;
+    height:14px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index: 20;
+    text-align: center;
+}
+@media screen and (min-width: 225px) and (max-width: 319px) {
+    .ui-content .banner div.points{
+        bottom:.2em;
+    }
+    .ui-content .banner{
+        min-height: 8em;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 359px) {
+    .ui-content .banner div.points{
+        bottom:.3em;
+    }
+    .ui-content .banner{
+        min-height: 9em;
+    }
+}
+@media screen and (min-width:360px) and (max-width: 380px){
+    .ui-content .banner div.points{
+        bottom:0.3em;
+    }
+    .ui-content .banner{
+        min-height: 10.5em;
+    }
+}
+@media screen and (min-width:381px) and (max-width: 450px){
+    .ui-content .banner div.points{
+        bottom:0.3em;
+    }
+    .ui-content .banner{
+        min-height: 11.5em;
+    }
+}
+@media screen and (min-width:451px){
+    .ui-content .banner div.points{
+        bottom:0.3em;
+    }
+    .ui-content .banner{
+        min-height: 11.5em;
+    }
+}
+.ui-content .banner div.points span {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border:3px solid #fff;
+    border-radius: 50%;
+    margin-left:10px;
+
+}
+.ui-content .banner div.points span.hover {
+    border:3px solid #5f5;
+}
+
+.content
+{
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.content .row
+{
+    margin:0;
+}
+
+.content .row div
+{
+    padding:0;
+    text-align: center;
+}
+
+.content .row div a
+{
+    display: block;
+    text-decoration:none ;
+    color: #343434;
+    text-align: center;
+}
+
+.content .row div a span
+{
+    display: block;
+}
+
+.content .row div a .naimg
+{
+    width: 45%;
+    margin-top: 5px;
+}
+
+.content .row div a .naspan
+{
+    margin-top: 0px;
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.content .row div a .adkimg
+{
+    width: 75%;
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+}
+
+.content .row div a .adkspan
+{
+    margin-top: 1px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.content .row div a .teimg
+{
+    width: 77%;
+    margin-top: 0px;
+    border: none;
+}
+
+.content .row div a .xianjia
+{
+    width: 50%;
+    margin-left: 15%;
+    display: block;
+    float: left;
+    text-align: left;
+    color: #dc5818;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .row div a .yuanjia
+{
+    width: 35%;
+    display: block;
+    float: left;
+    text-align: left;
+    color: #c2c2c2;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.content .heng
+{
+    width: 100%;
+    height: 3px;
+    background: #e9e9e9;
+    margin: 5px 0 0 0;
+}
+
+
+
+.clr
+{
+    clear: both;
+    width: 0;
+    height: 0;
+}

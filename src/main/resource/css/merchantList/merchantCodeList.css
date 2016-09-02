@@ -1,0 +1,41 @@
+body{
+	font-size: 10px;
+	font-family: "微软雅黑";
+	
+}
+.mui-content{
+	background: #fff;
+}
+.mui-scroll {
+   
+    background: #fff;
+}
+.mui-content .title{
+	margin: 40px 20px 10px;
+	font-weight: 500;
+	color: #000;
+	font: 14px;
+}
+.mui-content .smalltitle{
+	padding:10px;
+}
+.table_content{
+	font-size: 12px;
+	width: 100%;
+}
+.table_content td{
+	padding: 3px;
+	box-sizing: border-box;
+	color: #000000;
+}
+
+.table_content td.t2{
+	width: 70px;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    margin: 0;
+    padding: 0;
+}
+.mui-table-view-cell{
+	padding-right: 0;
+}

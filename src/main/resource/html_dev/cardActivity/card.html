@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>真好智慧社区</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../mui/css/mui.min.css">
+		<link rel="stylesheet" href="../../css/cardActivity/card.css">
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="topimg">
+				<img src="../../images/index-bg2.png" />
+			</div>
+			<div class="title">
+				<span class="tmain">现金50元</span>
+				<span class="ttitle">双人套餐抵用券</span>
+			</div>
+			<div class="para">
+				地址：北京市大兴区奥宇大厦1008室
+			</div>
+			<div class="para">
+				电话：100100100
+			</div>
+			<div class="para">
+				使用日期：2016年12月12日 —— 2016年12月28日
+			</div>
+			<div class="detail">
+				sdfg
+			</div>
+			<div class="store">商家：麦当劳</div>
+			<div class="detail pagebottom">
+				sdfg
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<button type="button" class="mui-btn mui-btn-main" data-id="">立即领券</button>
+		</nav>
+		<script src="../../mui/js/mui.min.js"></script>
+		<script>
+			mui(".mui-bar").on('tap', '.mui-btn', function() {
+				var id = this.getAttribute("data-id");
+				//window.location.href = "articleDetails.do?id=" + id;
+				mobileObj.mobileFunction('','');
+			})
+		</script>
+		
+	</body>
+
+</html>

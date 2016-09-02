@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>真好智慧社区</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<script src="../../mui/js/mui.min.js"></script>
+		<link href="../../mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../css/teamBuy/jionTBListDetail.css" />
+
+	</head>
+
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<span class="mui-btn" id="goBack" href="#">
+				&lt; 返回 
+			</span>
+			<!--<span class="mui-btn" href="http://www.zhenhaoapp.com/zh_web/download/app-user.do">
+				立即参团
+			</span>
+			<span class="mui-btn" href="http://www.zhenhaoapp.com/zh_web/download/app-user.do">
+				我的拼团状态
+			</span>-->
+		</nav>
+		<div class="mui-content">
+			<div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+  				<div class="mui-scroll">
+					<div class="list_top">
+						<ul>
+							<li>
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td class="list_top_product"><img src="../../images/limitbg.jpg"/></td>
+										<td>
+											<p class="title">鹅蛋（商品名称）</p>
+											<p class="price red">拼团价0.01元</p>
+										</td>
+										<td>
+											<p class="timer">10天23时45分59秒</p>
+										</td>
+									</tr>
+									
+								</table>
+								<p><span>（商品规格数据）</span></p>
+								<p><span>（参团规则数据）</span></p>
+								<div class="small_title">
+									<p><span>购买过的用户：</span></p>
+								</div>
+								
+							</li>
+						</ul>
+					</div>
+			
+				
+					<ul class="mui-table-view mui-table-view-chevron list_content">
+						<li class="container">
+							<div class="user">
+								<dl>
+									<dt><img class="user_img" src="../../images/limitbg.jpg"/></dt>
+									<dd>用户名1</dd>
+								</dl>
+							</div>
+							<div class="join_time">
+								<p class="timer">参与时间&nbsp;2016-06-29</p>
+							</div>
+						</li>
+						<li class="container">
+							<div class="user">
+								<dl>
+									<dt><img class="user_img" src="../../images/limitbg.jpg"/></dt>
+									<dd>用户名1</dd>
+								</dl>
+							</div>
+							<div class="join_time">
+								<p class="timer">参与时间&nbsp;2016-06-29</p>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			document.getElementById("goBack").addEventListener("tap",function () {
+				history.go(-1);
+			});
+		</script>
+	</body>
+
+</html>

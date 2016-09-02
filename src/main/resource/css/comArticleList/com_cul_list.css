@@ -1,0 +1,165 @@
+/*导航条*/
+.nav{
+	border-bottom: 1px solid #a1a1a1;
+	background: #ffffff;
+}
+.nav div.container{
+	background: #ffffff;
+	overflow-x: hidden;
+	padding-bottom: 2px;
+}
+.nav ul{
+	float: left;
+	transition: all 0.3s ease;
+}
+.nav ul li{
+	text-align: center;
+	width:25%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+.nav ul li a{
+	text-align: center;
+	display: inline-block;
+	width:100%;
+	line-height: 40px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #777777;
+	text-decoration: none;
+}
+.nav ul li a.hover{
+	color: #c9e092;
+	border-bottom: 2px solid #b3d466;
+}
+.nav div.jt{
+	width:30px;
+	height:40px;
+	line-height: 40px;
+	background: #ffffff;
+	position: absolute;
+	top:2.3em;
+	right:0;
+	text-align: center;
+}
+.nav div.jt a{
+	display: inline-block;
+	width: 20px;;
+	height:100%;
+}
+/*帖子详情*/
+img{
+	max-width: 100%;
+}
+.product{
+	color: #333;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+	background: #fff;
+	margin-top: 5px;
+}
+
+
+.content{
+	background: #fff;
+}
+.content dl{
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    border-top: 3px solid #eeeeee;
+}
+.content dl dt{
+	width: 30%;
+    float: left;
+    height: 7em;
+    overflow: hidden;
+    vertical-align: middle;
+    display: flex;
+    padding: .5em 0;
+}
+.content>a{
+	display: block;
+	color:#333;
+}
+.content dl dd{
+	width:70%;
+	float: right;
+}
+.content dl dd p{
+	margin: 0 .5em;
+}
+.content dl dd h4 span{
+	float: right;
+	padding:.2em 1em;
+	border-bottom-left-radius: 5px;
+	background: #cae194;
+	color: #ffffff;
+}
+.content dl dd .title{
+	color:#333;
+	font-size: 16px;
+	font-weight:500;
+	line-height: 1.5em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.content dd .date{
+	font-size: 10px;
+	-webkit-text-size-adjust:none;
+	line-height: 1.5em;
+}
+.content dd .gary{
+	font-size: 12px;
+	-webkit-text-size-adjust:none;
+	color: #ccc;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.content>a.loadMore{
+/* 	display: block; */
+	text-align: center;
+/* 	background: #add49a; */
+/* 	width: 100%; */
+	line-height: 2.7em;
+/* 	text-decoration: none; */
+/* 	color: #555; */
+padding-top:10px;
+}
+@media screen and (min-width:320px) and (max-width: 359px){
+	.adv{
+		min-height:8.5em;
+	}
+	.detail,.health,.sport,.face,.home,.friend,.heart{
+		font-size: 10px;
+	}
+	.content dl dd .title{
+		font-size: 13px;
+	}
+	.content dd .gary{
+		font-size: 8px;
+	}
+}
+
+#slideDown{
+	width:100%;
+	padding-top:10px;
+	text-align:center;
+	display:none;
+	font-size:14px;
+	color:#555;
+}
+
+#slideDown b{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	margin-right:5px;
+}
+
+
+
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0}

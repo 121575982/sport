@@ -1,0 +1,100 @@
+
+body
+{
+	background-color: white;	
+}
+
+div
+{
+	background-color: white;	
+}
+
+p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #4c4c4c;
+}
+
+.topimg img
+{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	border: none;
+}
+
+.title
+{
+	padding: 10px 30px 10px 30px;
+}
+
+.title .tmain
+{
+	font-size: 28px;
+	color: #fe6a00;
+	margin: 0 30px 0 0;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+.title .ttitle
+{
+	color: #2d2d2d;
+	font-size: 18px;
+}
+
+.para
+{
+	color: #4c4c4c;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	line-height: 1.5em;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.store
+{
+	border-top: 1px solid #e7e7e7;
+	padding: 20px 20px 10px 20px;
+	color: #2d2d2d;
+	font-size: 18px;
+	line-height: 1.3em;
+	color: #fe6a00;
+}
+
+.detail
+{
+	color: #4c4c4c;
+	padding: 10px 20px 10px 20px;
+	border-top: 2px dotted #e7e7e7;
+	line-height: 1.5em;
+	font-size: 14px;
+}
+
+.detail img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.pagebottom
+{
+	margin-bottom: 50px;
+}
+
+
+
+.mui-bar-tab
+{
+	padding: 0 10px 0 10px;
+}
+
+.mui-btn-danger, .mui-btn-negative, .mui-btn-main {
+    color: #fff;
+    border: 1px solid #fe6a00;
+    background-color: #fe6a00;
+    width: 100%;
+    letter-spacing: 2px;
+}

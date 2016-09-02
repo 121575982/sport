@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>门禁钥匙申请</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../../mui/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../../css/headOfHouse/keyApply.css" />
+	</head>
+
+	<body>
+		<nav class="mui-bar mui-bar-tab footer">
+			<div id="submint_btn" class="submint_btn">
+				<p>提价申请</p>
+			</div>
+		</nav>
+		<div class="mui-content">
+		    <!--选择小区-->
+		    <div class="selectX">
+		    	<a id="select_xiaoqu">
+		    		<p>选择地址：
+		    			<span id="address" class="address">世嘉博苑 9号楼-4单元</span>
+		    			<span class="mui-icon mui-icon-forward"></span> 
+		    			
+		    		</p>
+		    	</a>
+		    </div>
+		    <div class="useInfo">
+		    	<div class="mui-input-row">
+					<label>户主姓名：</label>
+					<input type="text" id="username" placeholder="">
+				</div>
+		    	<div class="mui-input-row">
+					<label>户主手机：</label>
+					<input type="text" id="userphone" placeholder="">
+				</div>
+				<div class="useInfo_intro">
+					<p>请认真填写户主信息，物业将对户主信息进行核实，才会派发电子钥匙。</p>
+				</div>
+		    </div>
+		</div>
+		
+		<script src="../../../mui/js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			
+//			获取cookie内容
+			function getCookie(name) {
+			   var cookies = document.cookie.split(";");
+			   //var cookies = document.cookie;
+			   for(var i=0;i<cookies.length;i++) {
+			    var cookie = cookies[i];
+			    var cookieStr = cookie.split("=");
+			    if(cookieStr && cookieStr[0].trim()==name) {
+			     return  decodeURI(cookieStr[1]);
+			    }
+			   }
+			 }
+			 
+			 String.prototype.trim = function() {
+			  return this.replace(/^(\s*)|(\s*)$/g,"");
+			 }
+			 
+//			 内容写入
+			document.getElementById("select_xiaoqu").addEventListener("tap",function(){
+				var username=encodeURI(document.getElementById("username").value);
+				var userphone=encodeURI(document.getElementById("userphone").value);
+				document.cookie="username="+username;
+				document.cookie="userphone="+userphone;
+				location.href="addressX.html";
+			});
+			
+			document.getElementById("address").innerHTML=getCookie("address")||"请选择...";
+			if(getCookie("username")){
+				document.getElementById("username").value=getCookie("username");
+			}else{
+				document.getElementById("username").placeholder="姓名不能为空...";
+			}
+			if(getCookie("userphone")){
+				document.getElementById("userphone").value=getCookie("userphone");
+			}else{
+				document.getElementById("userphone").placeholder="手机号不能为空...";
+			}
+			
+//			提交
+			document.getElementById("submint_btn").addEventListener("tap",function(){
+				var username=document.getElementById("username").value;
+				var userphone=document.getElementById("userphone").value;
+				var add=document.getElementById("address").innerHTML;
+				if(add==="请选择..."){
+					mui.alert("请选择小区地址！");
+				}else if(!username){
+					mui.alert("请输入业主姓名！");
+				}else if(!userphone){
+					mui.alert("请输入业主手机号码！");
+				}else{
+					mui.ajax('xxx.do',{
+						data:{
+							username:username,
+							userphone:userphone,
+							address:add
+						},
+						dataType:'json',//服务器返回json格式数据
+						type:'post',//HTTP请求类型
+						timeout:10000,//超时时间设置为10秒；
+						success:function(data){
+							mui.alert("已申请，请您耐心等待！")
+						},
+						error:function(xhr,type,errorThrown){
+							console.log("error");
+						}
+					});
+				}
+				
+			});
+			
+		</script>
+	</body>
+
+</html>

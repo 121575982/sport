@@ -1,0 +1,88 @@
+
+body,p,ul,li,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,"microsoft yahei";
+    background: #eeeeee;
+    box-sizing: border-box;
+    color: #555555;
+}
+img{
+    max-width: 100%;
+}
+.img{
+    margin: 0 auto;
+    margin-top: 3em;
+    width:70%;
+}
+.text h1{
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #7a7a7a;
+    text-align: center;
+    line-height: 3em;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid #7a7a7a;
+}
+.text table{
+    width:90%;
+    margin: 1em auto;
+    font-size: 1em;
+    color: #aaaaaa;
+}
+.text table ul li{
+    line-height: 2em;
+    height:2em;
+}
+.text a{
+    margin: 1.5em auto;
+    display:block;
+    line-height: 3em;
+    height:3em;
+    font-size: 1.2em;
+    width:5em;
+    border: 2px solid #d0d0d0;
+    color: #aaaaaa;
+    text-decoration: none;
+    text-align: center;
+    border-radius: .5em;
+}
+/*√ΩÃÂ≤È—Ø*/
+@media screen and (max-width: 319px){
+    .img{
+        margin-top: 2em;
+    }
+    .text table{
+        font-size: .9em;
+    }
+    .text a{
+        margin: 1em auto;
+        line-height: 2em;
+        height:2em;
+        font-size: 1.1em;
+        width:4em;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .img{
+        margin-top: 2em;
+    }
+    .text table{
+        margin: 1em auto;
+        font-size: 1em;
+    }
+    .text a{
+        margin: 1.2em auto;
+        line-height: 2.5em;
+        height:2.5em;
+        font-size: 1.2em;
+        width:4.5em;
+        border: 2px solid #d0d0d0;
+    }
+}
+

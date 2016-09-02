@@ -1,0 +1,8 @@
+img{
+	max-width: 100%;
+	min-width:100%;
+}
+.Active_img a{
+	display: inline-block;
+	width:100%;
+}
